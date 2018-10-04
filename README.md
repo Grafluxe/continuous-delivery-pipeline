@@ -63,3 +63,11 @@ unit testing, load testing) are excluded from this document.
 1. QA team green lights release.
 1. Application is deployed to **PROD** via manual trigger off the latest tag in
    GitLab-CI.
+
+## Additional Resources
+
+- [Deployment Environment Wiki](https://en.wikipedia.org/wiki/Deployment_environment)
+- [Software Development Practice by Peter Murray](https://dltj.org/article/software-development-practice/)
+ (ignore "Moving Between Tiers" section)
+- [Continuous Delivery by Jez Humble](https://www.youtube.com/watch?v=skLJuksCRTw)
+- [Continuous Delivery by Martin Fowler](https://www.youtube.com/watch?v=aoMfbgF2D_4)

@@ -21,7 +21,7 @@ tweaked to fit other flows if needed.
 **STAG**
 
 - Environment where prerelease and performance testing occurs. This environment
-  mirrors **PROD**.
+  mirrors **PROD** in regards to hardware and configurations.
 - CI tool *auto builds* off HEAD of the `master` branch.
 
 **PROD**
@@ -38,7 +38,8 @@ tweaked to fit other flows if needed.
 ## Development Flow
 
 In this example, we assume Jira is used for project management and GitLab-CI is
-used for continuous integration.
+used for continuous delivery. Detailed testing practices (i.e.
+unit testing, load testing) are excluded from this document.
 
 ![dev-flow](dev-flow.svg)
 

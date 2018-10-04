@@ -4,6 +4,13 @@ This document was written to work with
 [Git Workflow](https://github.com/grafluxe/git-ci-workflow#readme), but can be
 tweaked to fit other flows if needed.
 
+## Contents
+
+- [Git Branch Definitions](#git-branch-definitions)
+- [Deployment Environments](#deployment-environments)
+- [Development Flow](#development-flow)
+- [Additional Resources](#additional-resources)
+
 ## Git Branch Definitions
 
 `master` - Represents production ready code which should always be deployable.

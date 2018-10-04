@@ -1,7 +1,7 @@
 # Continuous Delivery Pipeline
 
 This document was written to work with
-[Git Workflow](https://github.com/grafluxe/git-workflow#readme), but can be
+[Git Workflow](https://github.com/grafluxe/git-ci-workflow#readme), but can be
 tweaked to fit other flows if needed.
 
 ## Git Branch Definitions

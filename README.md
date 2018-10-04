@@ -1,4 +1,4 @@
-# Continuous Integration Flow
+# Continuous Delivery Pipeline
 
 This document was written to work with
 [Git Workflow](https://github.com/grafluxe/git-workflow#readme), but can be

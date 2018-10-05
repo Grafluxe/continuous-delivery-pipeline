@@ -33,12 +33,12 @@ but can be tweaked to fit other flows as needed.
 **PROD**
 
 - Environment where the public-facing application lives. The production/live server.
-- Continuous Delivery tool builds off latest tag of the `master` branch (manual trigger required).
+- Continuous Delivery tool builds off latest tag of the `master` branch (*manual trigger* required).
 
 **EXPR**
 
 - Environment where experimental logic can be tested.
-- Continuous Delivery tool can build off any commit (manual trigger required).
+- Continuous Delivery tool can build off any commit (*manual trigger* required).
 
 ## Development Flow
 
@@ -63,7 +63,7 @@ testing practices (i.e. unit testing, load testing) are excluded from this docum
 1. GitLab *auto builds* off the HEAD of `master` and deploys to **STAG**.
 1. QA team does a final pre-release review off of the **STAG** environment.
 1. QA team green lights release.
-1. Application is deployed to **PROD** via manual trigger off the latest tag in GitLab.
+1. Application is deployed to **PROD** via *manual trigger* off the latest tag in GitLab.
 
 ## Additional Resources
 

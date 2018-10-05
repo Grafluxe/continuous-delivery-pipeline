@@ -23,6 +23,7 @@ but can be tweaked to fit other flows as needed.
 
 - Environment where QA testing occurs (via manual and automated techniques).
 - Continuous Delivery tool *auto builds* off HEAD of the `integration` branch.
+  - If desired, builds can also be made off any commit via *manual trigger*.
 
 **STAG**
 

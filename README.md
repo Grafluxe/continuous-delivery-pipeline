@@ -48,21 +48,23 @@ testing practices (i.e. unit testing, load testing) are excluded from this docum
 
 ![dev-flow](dev-flow.svg)
 
+**Example Where Tests Pass**
+
 1. Developer creates/is assigned a ticket via Jira.
-1. Developer checks out new local branch from `master` to work from (e.g. `fix/timer`).
+1. Developer checks out new local branch from `master` to work from (e.g. `feat/cors-support`).
 1. Developer completes relevant work, merges branch to `integration` and pushes changes to the remote server.
 1. GitLab *auto builds* off the HEAD of `integration` and deploys to **TEST**.
 1. Developer assigns ticket to QA team via Jira.
 1. QA team reviews changes on **TEST**.
 1. QA team sets ticket status to "done" in Jira.
-1. Developer merges local branch to  `master`, deletes the no longer needed local branch and pushes changes to the
+1. Developer merges local branch to `master`, deletes the no longer needed local branch and pushes changes to the
    remote server.
 1. GitLab *auto builds* off the HEAD of `master` and deploys to **STAG**.
 1. Repeat steps 1–9 for all needed features/hotfixes.
 1. Once next release is scheduled, developer creates a release commit (along with an annotated tag) on `master` and
    pushes to the remote server.
 1. GitLab *auto builds* off the HEAD of `master` and deploys to **STAG**.
-1. QA team does a final pre-release review off of the **STAG** environment.
+1. QA team does a final prerelease review on **STAG**.
 1. QA team green lights release.
 1. Application is deployed to **PROD** via *manual trigger* off the latest tag in GitLab.
 

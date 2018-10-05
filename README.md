@@ -72,3 +72,4 @@ testing practices (i.e. unit testing, load testing) are excluded from this docum
   "Moving Between Tiers" section)
 - [Continuous Delivery by Jez Humble](https://www.youtube.com/watch?v=skLJuksCRTw)
 - [Continuous Delivery by Martin Fowler](https://www.youtube.com/watch?v=aoMfbgF2D_4)
+- [CI vs CD](https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd)
